@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C836D7A81D88ECA1004DC1B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C836D7A71D88ECA1004DC1B9 /* main.m */; };
-		C836D7B21D88EE79004DC1B9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C836D7B11D88EE79004DC1B9 /* Person.m */; };
-		C836D7B51D88F167004DC1B9 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = C836D7B41D88F167004DC1B9 /* Contact.m */; };
-		C836D7B81D88F174004DC1B9 /* CManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C836D7B71D88F174004DC1B9 /* CManager.m */; };
-		C836D7BB1D88F183004DC1B9 /* KeyboardScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C836D7BA1D88F183004DC1B9 /* KeyboardScanner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,14 +25,6 @@
 /* Begin PBXFileReference section */
 		C836D7A41D88ECA1004DC1B9 /* Very-simple-address-book */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Very-simple-address-book"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C836D7A71D88ECA1004DC1B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C836D7B01D88EE79004DC1B9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		C836D7B11D88EE79004DC1B9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		C836D7B31D88F167004DC1B9 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
-		C836D7B41D88F167004DC1B9 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
-		C836D7B61D88F174004DC1B9 /* CManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CManager.h; sourceTree = "<group>"; };
-		C836D7B71D88F174004DC1B9 /* CManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CManager.m; sourceTree = "<group>"; };
-		C836D7B91D88F183004DC1B9 /* KeyboardScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardScanner.h; sourceTree = "<group>"; };
-		C836D7BA1D88F183004DC1B9 /* KeyboardScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardScanner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,32 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				C836D7A71D88ECA1004DC1B9 /* main.m */,
-				C836D7B01D88EE79004DC1B9 /* Person.h */,
-				C836D7B11D88EE79004DC1B9 /* Person.m */,
-				C836D7B31D88F167004DC1B9 /* Contact.h */,
-				C836D7B41D88F167004DC1B9 /* Contact.m */,
-				C836D7AE1D88EE3A004DC1B9 /* 正则表达式 */,
-				C836D7AF1D88EE3A004DC1B9 /* KeyboardScanner */,
 			);
 			path = "Very-simple-address-book";
-			sourceTree = "<group>";
-		};
-		C836D7AE1D88EE3A004DC1B9 /* 正则表达式 */ = {
-			isa = PBXGroup;
-			children = (
-				C836D7B61D88F174004DC1B9 /* CManager.h */,
-				C836D7B71D88F174004DC1B9 /* CManager.m */,
-			);
-			path = "正则表达式";
-			sourceTree = "<group>";
-		};
-		C836D7AF1D88EE3A004DC1B9 /* KeyboardScanner */ = {
-			isa = PBXGroup;
-			children = (
-				C836D7B91D88F183004DC1B9 /* KeyboardScanner.h */,
-				C836D7BA1D88F183004DC1B9 /* KeyboardScanner.m */,
-			);
-			path = KeyboardScanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,11 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C836D7B21D88EE79004DC1B9 /* Person.m in Sources */,
-				C836D7B51D88F167004DC1B9 /* Contact.m in Sources */,
-				C836D7B81D88F174004DC1B9 /* CManager.m in Sources */,
 				C836D7A81D88ECA1004DC1B9 /* main.m in Sources */,
-				C836D7BB1D88F183004DC1B9 /* KeyboardScanner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
